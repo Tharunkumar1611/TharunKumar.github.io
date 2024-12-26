@@ -1,0 +1,29 @@
+.photo-section {
+    padding: 50px 30px;
+    background-color: #1f1f1f;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .photo-box {
+    text-align: center;
+    border-radius: 10px;
+    min-height: 200px;
+    border: none;
+    padding: 0;
+  }
+  
+  .photo-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: block;
+  }
+  
